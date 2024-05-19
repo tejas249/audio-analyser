@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio Waveform Analyzer</title>
+   <link rel="stylesheet" href="style.css" class="css">
+</head>
+<body>
+      
+      <div class="container">
+        <div class="header">
+            <h1>Audio Wave Analyzer</h1>
+          </div>
+        <label for="audioFile" class="inputContainer">
+          Upload Audio
+          <input type="file" id="audioFile" accept="audio/*">
+        </label>
+        <canvas id="waveform"></canvas>
+        <audio controls id="audio" style="display: none;"></audio>
+      </div>
+      <script src="./script.js"></script>
+      
+</body>
+</html>
